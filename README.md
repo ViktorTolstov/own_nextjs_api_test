@@ -5,7 +5,7 @@ NOTE: Whenever we mention <SS> we mean summary statistics which essentially mean
 values (mean, min, max)
 
 0) TO RUN PROJECT IN DEV MODE:
-- put .env file into project root
+- rename .env.example into .env.local file in project root and set DB string
 - run 'npm i'
 - run 'npm run start'
 
