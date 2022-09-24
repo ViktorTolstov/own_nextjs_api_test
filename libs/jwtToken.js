@@ -19,7 +19,7 @@ const checkToken = (req) => {
     const token = req.headers.authorization.split(" ")[1];
 
     try {
-        var decoded = jwt.verify(token, jwtSecret);
+        const decoded = jwt.verify(token, jwtSecret);
         return true;
     } catch (err) {
         return false;
